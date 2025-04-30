@@ -1,14 +1,18 @@
 {
-  "name": "checkout-backend",
+  "name": "checkout-backend-stripe",
   "version": "1.0.0",
+  "description": "Backend simples com Node.js e Stripe para criar PaymentIntents.",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
+  "keywords": ["stripe", "checkout", "nodejs", "express", "api"],
+  "author": "Nacire",
+  "license": "MIT",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
-    "stripe": "^12.14.0"
+    "stripe": "^12.0.0"
   }
 }
